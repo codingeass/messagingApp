@@ -1,5 +1,4 @@
 # messagingApp
-Messaging section for a website
 
 #### 
 
