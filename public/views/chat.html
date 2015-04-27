@@ -1,0 +1,129 @@
+<html>
+<head>
+<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+<link rel="stylesheet" href="../css/style.css"/>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+<link rel="icon" type="/image/png" href="../img/profile.png" />
+<title>Messaging App</title>
+</head>
+<body>
+	<div class="jumbotron text-center">
+	  <h1>Messaging App</h1>
+	</div>
+
+	<div class="container">
+		<div class="row login_description">
+			<div class="col-md-4" id="message_section">
+				<form class="form-inline">
+
+				  <div class="form-group btn-group">
+				    <label class="sr-only" for="get_search">Search</label>
+				    <div class="input-group">
+				      <input type="text" class="form-control" id="InputSearch" placeholder="Search">
+				      <div class="input-group-addon" id="search_button"><button type="button" class="btn btn-default glyphicon glyphicon-search"></button></div>
+				    </div>
+				  </div>
+				  
+				</form>
+
+				<div id="users_message">
+					<div class="list-group">
+		<!-- i think we have to use  a link with bootstrap-->					
+						<div class="media list-group-item active">
+						  <div class="media-left">
+						    <a href="#">
+						      <img class="media-object" src="../img/2.jpg" alt="amandeep">
+						    </a>
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Amandeep Gupta</h4>
+						    Hello How are you doing?
+						  </div>
+						</div>
+
+						<div class="media list-group-item">
+						  <div class="media-left">
+						    <a href="#">
+						      <img class="media-object" src="../img/1.jpg" alt="anuj">
+						    </a>
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Anuj Sharma</h4>
+						    have you watched new episode of SAO ..
+						  </div>
+						</div>
+
+
+					</div>
+
+					
+
+					
+				</div>
+
+			</div>
+
+			<div class="col-md-8" >
+				<ul class="list-group" id="message_section">
+					<li class="list-group-item">
+						<h4 id="user_name" style="display: inline">Amandeep Gupta</h4> <span id="space"> &nbsp;&nbsp;&nbsp;</span> <span class="glyphicon glyphicon-earphone" style="color:green;font-size:1.5em;" for="online"></span><span class="glyphicon glyphicon-phone-alt"  style="color:red;font-size:1.5em;display:none;" for="offline"></span>
+					</li>
+					
+					<li class="list-group-item" id="message_block_r">
+					
+					<ul class="list-group">
+						<li class="list-group-item">
+							<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							      <img class="media-object" src="../img/2.jpg" alt="amandeep">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							    <h4 class="media-heading">Amandeep Gupta</h4>
+								The div tag is a block element, causing that behavior.
+								You should use a span element instead, which is inline.
+								If you really want to use div, add style="display: inline"
+								The div tag is a block element, causing that behavior.
+								You should use a span element instead, which is inline.
+								If you really want to use div, add style="display: inline"The div tag is a block element, causing that behavior.
+							  </div>
+							</div>
+						</li>
+
+						<li class="list-group-item">
+							<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							      <img class="media-object" src="../img/3.jpg" alt="vishal">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							    <h4 class="media-heading">Vishal Pandey</h4>
+								The div tag is a block element, causing that behavior.
+								You should use a span element instead, which is inline.
+								If you really want to use div, add style="display: inline"
+								The div tag is a block element, causing that behavior.
+								You should use a span element instead, which is inline.
+								If you really want to use div, add style="display: inline"The div tag is a block element, causing that behavior.
+							  </div>
+							</div>
+						</li>
+					</ul>
+					</li>
+					
+				<ul>
+
+			</div> 
+		</div>
+
+	</div>
+
+	<div class="container-fluid" >
+		<div class="panel panel-footer" >Panel footer</div>
+	</div>
+	
+</body>
+
+
+</html>
