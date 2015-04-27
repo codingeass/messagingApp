@@ -35,3 +35,23 @@ body {
 	border-left: none;
 	border-right: none;
 }
+
+#small_jumbotron{
+	padding-bottom:1.4em;
+	padding-top:1em; 
+	padding-left: 2em;
+}
+
+#img_button{
+	padding: 3px;
+}
+
+#message_block_r{
+	height: 400px;
+	overflow-y: scroll;
+}
+
+#users_message{
+	height: 410px;
+	overflow-y:scroll; 
+}
